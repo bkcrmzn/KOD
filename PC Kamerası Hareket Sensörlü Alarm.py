@@ -4,7 +4,7 @@ import time
 from playsound import playsound
 import threading  # Ses çalma işlemini ayrı bir iş parçacığında yapacağız
 
-ALARM_SOUND = "WhatsApp Ses 2025-11-04 saat 19.22.44_c49e739f.mp3"  # Yüklediğin ses dosyası
+ALARM_SOUND = "Alarm"  # Yüklediğin ses dosyası
 SON_CALMA_ZAMANI = 0
 BEKLEME_SURESI = 1  # saniye (1 saniye aralıkla alarm çalacak)
 
@@ -66,3 +66,4 @@ while camera.isOpened():
 
 camera.release()
 cv2.destroyAllWindows()
+
